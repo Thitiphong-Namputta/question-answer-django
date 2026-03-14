@@ -10,6 +10,7 @@ urlpatterns = [
     path('api/v1/', include('apps.users.urls')),
     path('api/v1/', include('apps.subjects.urls')),
     path('api/v1/', include('apps.questions.urls')),
+    path('api/v1/', include('apps.exams.urls')),
 
     # DRF Browsable API (dev เท่านั้น)
     path('api-auth/', include('rest_framework.urls')),
